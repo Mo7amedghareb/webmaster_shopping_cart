@@ -17,5 +17,5 @@ document.getElementById("registerform").addEventListener("submit",function(event
     };
     localStorage.setItem(email,JSON.stringify(user));
     alert("registration successful please login");
-    window.location.href="file:///D:/Web_Masters%20training%20(React)%20frontend/week%203%20tasks/webmaster_shopping_cart/sign_in.html";
+    window.location.href="signin.html";
 });

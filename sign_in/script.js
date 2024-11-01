@@ -7,7 +7,7 @@ document.getElementById("loginform").addEventListener("submit",function(event){
         var parseduser=JSON.parse(user);
         if(parseduser.password===password){
             localStorage.setItem("user",JSON.stringify(parseduser));
-            window.location.href="file:///D:/Web_Masters%20training%20(React)%20frontend/week%203%20tasks/webmaster_shopping_cart/Home.html";
+            window.location.href="homepage.html";
         }else{
             alert("incorrect password");
         }

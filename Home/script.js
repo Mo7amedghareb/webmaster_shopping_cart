@@ -4,7 +4,7 @@ if(user){
 }
 document.getElementById("logoutbtn").addEventListener("click",function(){
     localStorage.removeItem("user");
-    window.location.href="file:///D:/Web_Masters%20training%20(React)%20frontend/week%203%20tasks/webmaster_shopping_cart/sign_in.html";
+    window.location.href="signin.html";
 })
 
 const products=[];
