@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 105vh;
+}
+.title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: solid black 1px;
+    width: fit-content;
+}
+#forminput{
+    width:400px;
+}
+.form{
+    width: 450px;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+}
+#submitbtn{
+    margin-top: 20px;
+    margin-left: 150px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+#registerspan{
+    display: block;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+

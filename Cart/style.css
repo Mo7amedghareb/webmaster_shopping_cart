@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to top right,red,purple);
+}
+#title{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+.cartlist{
+    background-color:darkgray;
+    padding: 20px;
+    border: 1px solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    img{
+        width: 200px;
+        height: 300px;
+    }
+}
